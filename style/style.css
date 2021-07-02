@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* for hw1-home */
+
+/*缺遮罩*/
+img {
+  z-index: -1;
+  -webkit-filter:brightness(.5);
+}
+
+#Home {
+  color:white;
+  display: block;
+  font-size: x-large;
+  margin: 0;
+  padding: 10px 100px 0px 100px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#My-Blog {
+  color: white;
+  display: block;
+  font-size: 2cm;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0px 100px 15px 100px;
+  z-index: 1;
+  font-family: 'Open Sans', sans-serif;
+}
+
+button {
+  border:0;
+  background-color:#0085A1;
+  color:#fff;
+  font-size: medium;
+}
+
+.b {
+  width: 600px;
+  text-align: left;
+  margin: 0 auto;
+  padding: 50px 0px 0px 0px;
+}
+
+.button-text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.4cm;
+  font-weight: 800;
+}
+
+.post {
+  width: 600px;
+  text-align: left;
+  margin: 0 auto;
+  padding: 30px auto;
+}
+
+h1, h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.83cm;
+}
+
+.t {
+  font-size: 0.83cm;
+}
+
+.detail {
+  font-family: 'Open Sans', sans-serif;
+  font-weight:200;
+  font-size: 0.63cm;
+}
+
+.author {
+  color: rgb(105, 105, 105);
+  font-weight: 50;
+}
+
+.date {
+  color: rgb(172, 172, 172);
+  font-weight: 50;
+}
